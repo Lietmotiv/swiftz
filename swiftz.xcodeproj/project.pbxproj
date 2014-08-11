@@ -163,7 +163,7 @@
 		59853A0A1967F99600A3158C /* swiftz_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftz_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59853A101967F99600A3158C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59853A111967F99600A3158C /* swiftz_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftz_iosTests.swift; sourceTree = "<group>"; };
-		59853A191967F9B000A3158C /* swiftz_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swiftz_core.framework; path = "../../Library/Developer/Xcode/DerivedData/swiftz-caubilaqvpmvcjdzvtqopnzfrawa/Build/Products/Debug/swiftz_core.framework"; sourceTree = "<group>"; };
+		59853A191967F9B000A3158C /* swiftz_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = swiftz_core.framework; sourceTree = "<group>"; };
 		59B26544193F365A007AA82B /* GCDExecutionContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDExecutionContext.swift; sourceTree = "<group>"; };
 		59B2DCB919434706002ACB3E /* TupleExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TupleExt.swift; sourceTree = "<group>"; };
 		59B39E3D1943094F00F4B222 /* Curry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Curry.swift; sourceTree = "<group>"; };
@@ -177,7 +177,7 @@
 		59B9E7D7194597C900F5B3E1 /* GenericsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericsTests.swift; sourceTree = "<group>"; };
 		59B9E7D9194597FD00F5B3E1 /* TextTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextTests.swift; sourceTree = "<group>"; };
 		59B9E7DB1945983100F5B3E1 /* ExtTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtTests.swift; sourceTree = "<group>"; };
-		59BB97FC195EFBA3002C0FA1 /* swiftz_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swiftz_core.framework; path = "../../../Library/Developer/Xcode/DerivedData/swiftz-caqylddmzkkvgobozoemrvvopcve/Build/Products/Debug/swiftz_core.framework"; sourceTree = "<group>"; };
+		59BB97FC195EFBA3002C0FA1 /* swiftz_core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = swiftz_core.framework; path = ../swiftz_core.framework; sourceTree = "<group>"; };
 		59BF7D921943347800EAFFAA /* SYB.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SYB.swift; sourceTree = "<group>"; };
 		59BF7D9519433ECB00EAFFAA /* SwiftCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftCheck.swift; sourceTree = "<group>"; };
 		59C50C3C193DEB8100FE8C86 /* Num.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Num.swift; sourceTree = "<group>"; };
@@ -620,7 +620,6 @@
 				59853A371967F9F100A3158C /* MaybeFunctor.swift in Sources */,
 				59853A381967F9F100A3158C /* Semigroup.swift in Sources */,
 				59853A391967F9F100A3158C /* Monoid.swift in Sources */,
-				1143A18D197F4F5700561B55 /* Iso.swift in Sources */,
 				59853A3A1967F9F100A3158C /* JSON.swift in Sources */,
 				59853A3B1967F9F100A3158C /* Set.swift in Sources */,
 				59853A3E1967F9F100A3158C /* Tuple.swift in Sources */,
@@ -630,7 +629,6 @@
 				59853A421967F9F100A3158C /* StringExt.swift in Sources */,
 				59853A431967F9F100A3158C /* OptionalExt.swift in Sources */,
 				59853A441967F9F100A3158C /* DictionaryExt.swift in Sources */,
-				1143A18A197F4F0900561B55 /* Prism.swift in Sources */,
 				59853A451967F9F100A3158C /* NSDictionaryExt.swift in Sources */,
 				59853A461967F9F100A3158C /* NSArrayExt.swift in Sources */,
 				59853A471967F9F100A3158C /* SYB.swift in Sources */,
